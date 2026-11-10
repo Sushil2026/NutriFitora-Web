@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API || "https://nutrifitora-api.onrender.com`";
+const BASE = import.meta.env.VITE_API || "https://nutrifitora-api.onrender.com";
 
 export async function api(path, { method = "GET", body } = {}) {
   const t = localStorage.getItem("token");
